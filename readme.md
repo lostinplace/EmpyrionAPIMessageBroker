@@ -45,6 +45,9 @@ public class DebugMod : ModInterface {
   public void Game_Update()
   {
     var playerInfoCmd = new APICmd(CmdId.Request_Player_Info, new Id(68));
+    var handler = (PlayerInfo result) => {
+      GameAPI.Console_Write($"player info received {result.toString}");
+    }
     broker.ExecuteCommand<PlayerInfo>(playerInfoCmd, handler);
   }  
 }
