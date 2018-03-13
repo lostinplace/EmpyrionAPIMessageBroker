@@ -1,3 +1,9 @@
+**THIS IS DEPRECATED IN FAVOR OF ITS REPLACEMENT**
+
+https://github.com/lostinplace/EmpyrionAPITools
+
+I'm leaving it here for posterity
+
 # Empyrion API Message Broker
 
 ## FAQ
